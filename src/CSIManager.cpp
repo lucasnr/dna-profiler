@@ -106,7 +106,7 @@ int main(int argc, char** argv) {
     return 1;
   }
 
-  cout << tcolor("The subject is: ", BLUE) << tcolor(found, WHITE, BOLD) << endl;
+  cout << "The subject is: " << tcolor(found, BLUE) << " [" << tcolor(profile, BLUE, BOLD) << "]" << endl;
 
   return 0;
 }
