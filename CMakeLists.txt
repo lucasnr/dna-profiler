@@ -15,7 +15,7 @@ include_directories( src )
 
 # Add the target
 add_executable( dna_profiler
-                src/main.cpp )
+                src/CSIManager.cpp )
 
 # define C++11 standard
 set_property(TARGET dna_profiler PROPERTY CXX_STANDARD 11)
